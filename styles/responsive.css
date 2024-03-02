@@ -43,6 +43,10 @@
   .place-row {
     flex-direction: column;
   }
+  /* feature */
+  .feature-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /* Tablet Devices */
