@@ -39,6 +39,10 @@
   .article-image {
     width: 100%;
   }
+  /* place  */
+  .place-row {
+    flex-direction: column;
+  }
 }
 
 /* Tablet Devices */
@@ -74,5 +78,9 @@
   .article-content,
   .article-image {
     width: 100%;
+  }
+  /* place  */
+  .place-row {
+    flex-direction: column;
   }
 }
