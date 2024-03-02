@@ -31,6 +31,14 @@
   .plan a {
     margin-bottom: 10px;
   }
+  /* Article  */
+  .article-container {
+    flex-direction: column;
+  }
+  .article-content,
+  .article-image {
+    width: 100%;
+  }
 }
 
 /* Tablet Devices */
@@ -58,5 +66,13 @@
 
   .plan a {
     margin-bottom: 10px;
+  }
+  /* Article  */
+  .article-container {
+    flex-direction: column;
+  }
+  .article-content,
+  .article-image {
+    width: 100%;
   }
 }

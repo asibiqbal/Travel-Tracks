@@ -14,6 +14,11 @@
 .img-fluid {
   width: 100%;
 }
+.section-title {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
 /* Header */
 header {
   padding: 0 0 50px 0;
@@ -137,4 +142,41 @@ nav ul li a:hover {
 .plan-search {
   background: #ff5400 !important;
   color: white !important;
+}
+/* Article */
+article {
+  padding: 80px 0;
+}
+.article-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.article-content {
+  width: 50%;
+}
+.article-img {
+  width: 50%;
+}
+.article-content p,
+li {
+  color: #131318b3;
+  font-size: 1rem;
+  line-height: 26px; /* 162.5% */
+}
+.article-content p,
+li {
+  margin: 10px 0;
+}
+.article-content ul {
+  margin-left: 20px;
+}
+.section-btn {
+  color: #fff;
+  background-color: #ff5400;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 800;
+  border: none;
 }
