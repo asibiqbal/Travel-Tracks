@@ -8,16 +8,20 @@
   font-family: "Mulish", sans-serif;
 }
 .container {
-  width: 95%;
+  max-width: 1140px;
   margin: 0 auto;
 }
 .img-fluid {
   width: 100%;
 }
-
+/* Header */
+header {
+  padding: 0 0 50px 0;
+}
 /* Nav */
 nav {
   padding-top: 20px;
+  /* width: 100%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,7 +37,7 @@ nav {
 
 .logo > h3 {
   color: #131318;
-  font-size: 2.25em;
+  font-size: 2.25rem;
   font-weight: 800;
 }
 .logo > h3 span {
@@ -51,7 +55,7 @@ nav ul li a {
   margin-right: 20px;
   text-decoration: none;
   color: #424247;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   transition: 0.2s ease-in;
 }
 .active {
@@ -63,4 +67,74 @@ nav ul li a:hover {
 
 .humburger {
   display: none;
+}
+
+/* banner */
+.banner {
+  background-image: url(../Images/banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.banner p {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 40px;
+}
+.find-place {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.find-place > div {
+  text-decoration: none;
+  color: #131318;
+  /* background-color: #fff; */
+  padding: 10px 30px 10px 10px;
+}
+.find-place a {
+  text-decoration: none;
+  color: #131318;
+  background-color: #fff;
+  padding: 10px 30px 10px 10px;
+}
+.plan {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 25px 8px;
+}
+.plan a {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 10px 70px 10px 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+  color: #13131880;
+  font-size: 1rem;
+}
+.plan-item {
+  position: relative;
+}
+.plan-item > i {
+  position: absolute;
+  right: 0;
+  top: 14px;
+  margin-right: 10px;
+}
+.plan-search {
+  background: #ff5400 !important;
+  color: white !important;
 }

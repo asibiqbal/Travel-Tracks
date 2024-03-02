@@ -1,22 +1,62 @@
 /* Mobile Devices */
 @media screen and (max-width: 600px) {
+  .container {
+    width: 98%;
+  }
   .menu {
     display: none;
   }
   .humburger {
     display: block;
+    /* margin-right: 0; */
   }
   .logo > h3 {
     font-size: 1.25em;
+  }
+  .logo img {
+    margin-right: 5px;
+    width: 30px;
+  }
+  .banner h1 {
+    font-size: 3rem;
+  }
+  .banner br {
+    display: none;
+  }
+  .plan {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .plan a {
+    margin-bottom: 10px;
   }
 }
 
 /* Tablet Devices */
 @media screen and (min-width: 600px) and (max-width: 992px) {
+  .container {
+    width: 98%;
+  }
   .menu {
     display: none;
   }
   .humburger {
     display: block;
+    /* margin-right: 0; */
+  }
+  .banner h1 {
+    font-size: 4rem;
+  }
+  .banner br {
+    display: none;
+  }
+  .plan {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .plan a {
+    margin-bottom: 10px;
   }
 }
