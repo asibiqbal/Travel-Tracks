@@ -253,9 +253,13 @@ li {
 .feature-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
   gap: 40px;
   margin-top: 40px;
   padding-bottom: 80px;
+}
+.feature-items:nth-child(3) {
+  grid-column: 1 / span 2;
 }
 .feature-items {
   padding: 25px;

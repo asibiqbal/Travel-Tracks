@@ -48,6 +48,9 @@
   .feature-container {
     grid-template-columns: repeat(1, 1fr);
   }
+  .feature-items:nth-child(3) {
+    grid-column: auto;
+  }
   /* deals Content */
   .deals-content {
     margin: 150px 30px 30px 30px;
@@ -116,6 +119,13 @@
   /* place  */
   .place-row {
     flex-direction: column;
+  }
+  /* feature */
+  .feature-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-items:nth-child(3) {
+    grid-column: auto;
   }
   /* deals Content */
   .deals-content {
