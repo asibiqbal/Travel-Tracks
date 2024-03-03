@@ -47,6 +47,10 @@
   .feature-container {
     grid-template-columns: repeat(1, 1fr);
   }
+  /* deals Content */
+  .deals-content {
+    margin: 150px 30px 30px 30px;
+  }
 }
 
 /* Tablet Devices */
@@ -86,5 +90,9 @@
   /* place  */
   .place-row {
     flex-direction: column;
+  }
+  /* deals Content */
+  .deals-content {
+    margin: 30px;
   }
 }
