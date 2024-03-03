@@ -11,14 +11,15 @@
     /* margin-right: 0; */
   }
   .logo > h3 {
-    font-size: 1.25em;
+    /* font-size: 1.25rem; */
   }
   .logo img {
     margin-right: 5px;
     width: 30px;
   }
   .banner h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    text-align: center;
   }
   .banner br {
     display: none;
@@ -51,6 +52,30 @@
   .deals-content {
     margin: 150px 30px 30px 30px;
   }
+  /* Newsletter */
+  .newsletter-container {
+    gap: 0;
+    flex-direction: column;
+  }
+  .newsletter-content {
+    margin-bottom: 30px;
+  }
+  .discount {
+    bottom: 16%;
+    right: 4%;
+  }
+  .partner-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .partner-container img {
+    width: 50%;
+  }
+  .footer p {
+    margin: 20px 0;
+    text-align: justify;
+  }
 }
 
 /* Tablet Devices */
@@ -66,7 +91,8 @@
     /* margin-right: 0; */
   }
   .banner h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
+    text-align: center;
   }
   .banner br {
     display: none;
@@ -94,5 +120,17 @@
   /* deals Content */
   .deals-content {
     margin: 30px;
+  }
+  /* Newsletter */
+  .newsletter-container {
+    gap: 0;
+    flex-direction: column;
+  }
+  .newsletter-content {
+    margin-bottom: 30px;
+  }
+  .discount {
+    bottom: 16%;
+    right: 4%;
   }
 }
